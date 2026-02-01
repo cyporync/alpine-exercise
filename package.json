@@ -1,8 +1,24 @@
 {
-  "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+  "name": "alpine-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyporync/alpine-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cyporync/alpine-exercise/issues"
+  },
+  "homepage": "https://github.com/cyporync/alpine-exercise#readme",
   "dependencies": {
-    "@11ty/eleventy-upgrade-help": "^3.0.1"
+    "@11ty/eleventy": "^3.1.2"
   }
 }

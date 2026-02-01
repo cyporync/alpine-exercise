@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpine Exercise</title>
+    <link rel="stylesheet" href="/styles/screen.css">
+    <script src="/main.js"></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+<body>
+    <div x-data="randomIndex()">
+        <button @click="getRandomIndex()">change name</button>
+        <h1 x-data="{ names: ['claire', 'chloe', 'arthi', 'varada', 'zach', 'annika', 'sana', 'ian', 'makayla', 'grace'] }" x-text="names[index]"></h1>
+    </div>
+</body>
+</html>
+
