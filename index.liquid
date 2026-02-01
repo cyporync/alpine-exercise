@@ -1,7 +1,7 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: Alpine Exercise
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<button @click="alert(name[0])">Change Name</button>
+<h1 x-data="{ name: ['claire', 'chloe', 'arthi', 'varada', 'zach', 'annika', 'sana'] }" x-text="name[0]"></h1>
